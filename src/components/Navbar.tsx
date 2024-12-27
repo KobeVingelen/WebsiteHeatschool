@@ -15,7 +15,7 @@ const Navbar = () => {
             className="text-2xl font-bold text-white hover:text-hot-pink transition-colors"
           >
             <img
-              src="/src/public/images/Heat_standard.png"
+              src="/images/Heat_standard.png"
               alt="Logo HEAT"
               className="h-8 w-auto object-contain"
             />

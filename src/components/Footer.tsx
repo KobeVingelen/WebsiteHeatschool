@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="block mb-4">
               <img
-                src="/src/public/images/Heat_standard.png"
+                src="/images/Heat_standard.png"
                 alt="HEAT"
                 className="h-16 w-20 object-contain"
               />

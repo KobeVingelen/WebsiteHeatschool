@@ -35,7 +35,7 @@ const LoadingOverlay: React.FC<LoadingOverlayProps> = ({ onLoadingComplete }) =>
     >
       <div className="animate-pulse">
         <img
-          src="/src/public/images/Logo_transparant.png"
+          src="/images/Logo_transparant.png"
           alt="HEAT"
           className="w-32 h-32 object-contain"
         />

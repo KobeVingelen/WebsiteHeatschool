@@ -7,28 +7,28 @@ const artists = [
   {
     name: 'ROBBE-GE',
     time: '23:00 - 00:00',
-    image: '/src/public/images/Dj_pictures/ROBBE-GE.png',
+    image: '/images/Dj_pictures/ROBBE-GE.png',
     description:
       'ROBBE_GE, een opkomend talent in de Belgische techno scene, staat bekend om zijn donkere, industriële beats en hypnotiserende ritmes. Zijn sets zijn een perfecte mix van raw techno en moderne elektronische elementen.',
   },
   {
     name: 'BARQIEMOON',
     time: '00:00 - 01:00',
-    image: '/src/public/images/Dj_pictures/BARQIEMOON.png',
+    image: '/images/Dj_pictures/BARQIEMOON.png',
     description:
       'Met een unieke blend van acid techno en industrial, creëert Barqiemoon een meeslepende ervaring die je niet snel zult vergeten. Zijn energieke sets zorgen voor een onvergetelijke nacht.',
   },
   {
     name: 'BISOUX',
     time: '01:00 - 02:00',
-    image: '/src/public/images/Dj_pictures/BISOUX.png',
+    image: '/images/Dj_pictures/BISOUX.png',
     description:
       'Bisoux pusht de grenzen van conventionele techno. Met invloeden uit verschillende elektronische genres, creëert hij een unieke sound die de dansvloer in vuur en vlam zet.',
   },
   {
     name: 'SKELETOR YOGI',
     time: '02:00 - 03:00',
-    image: '/src/public/images/Dj_pictures/SKELETOR_YOGI.png',
+    image: '/images/Dj_pictures/SKELETOR_YOGI.png',
     description:
       'Skeletor Yogi pusht de grenzen van conventionele techno. Met invloeden uit verschillende elektronische genres, creëert hij een unieke sound die de dansvloer in vuur en vlam zet.',
   },
