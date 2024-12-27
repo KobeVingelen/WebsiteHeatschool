@@ -1,10 +1,13 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
-});
+  base: '/', // Ensure this is set to root if not deploying in a subdirectory
+  resolve: {
+    alias: {
+      // Do NOT alias 'public' folder
+      // Avoid something like: '@public': '/src/public'
+    }
+  }
+})
