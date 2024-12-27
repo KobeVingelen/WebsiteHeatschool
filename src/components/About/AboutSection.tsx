@@ -13,7 +13,7 @@ const AboutSection = () => {
         
         {/* Text Content */}
         <div className="space-y-4 sm:space-y-6">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gradient-pink">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white">
             About HEAT
           </h2>
           <div className="text-base sm:text-lg text-gray-300 space-y-4">

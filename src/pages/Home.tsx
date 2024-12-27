@@ -17,7 +17,7 @@ const Home = () => {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="/src/public/images/Backgroundvideo.mp4" type="video/mp4" />
+            <source src="/src/public/images/BackgroundvideoHD.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/70 to-black/90 backdrop-blur-[2px]" />
         </div>
