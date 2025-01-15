@@ -13,7 +13,7 @@ const AboutSection = () => {
         
         {/* Text Content */}
         <div className="space-y-4 sm:space-y-6">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white">
+          <h2 className="text-3xl sm:text-4xl font-bold font-Audiowide text-white">
             About HEAT
           </h2>
           <div className="text-base sm:text-lg text-gray-300 space-y-4">
@@ -21,7 +21,7 @@ const AboutSection = () => {
               HEAT dompelt je onder in een 360° dj-setting vol hardgroove en
               trance. Zes opkomende talenten trappen de avond af met een
               dj-contest. Wanneer de zaal overkookt, neemt een verhitte
-              line-up het over: DC Noises, Barqiemoon en Skeletor Yogi.
+              line-up het over: TBA
             </p>
             <p className="leading-relaxed">
               In een intieme sfeer, gevoed door jullie zwetende lijven, draait

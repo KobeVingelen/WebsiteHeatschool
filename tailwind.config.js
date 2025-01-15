@@ -8,6 +8,7 @@ export default {
       },
       fontFamily: {
         'cosmic': ['Cosmic Octo', 'system-ui', 'sans-serif'],
+        'Audiowide': ['Audiowide', 'sans-serif']
       },
     },
   },

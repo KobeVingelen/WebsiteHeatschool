@@ -11,7 +11,7 @@ const SoundCloudPlayer: React.FC<SoundCloudPlayerProps> = ({ trackUrl }) => {
   };
 
   return (
-    <div className="w-full h-[166px] bg-black/30 rounded-lg overflow-hidden">
+    <div className="w-full h-[100px] bg-black/30 rounded-sm overflow-hidden">
       <iframe
         title="SoundCloud Player"
         width="100%"

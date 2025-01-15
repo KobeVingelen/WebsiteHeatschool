@@ -2,6 +2,7 @@ import React from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import ArtistCard from '../components/LineUp/ArtistCard';
 import GrainBackground from '../components/GrainBackground';
+import { Clock } from 'lucide-react';
 
 const artists = [
   {
@@ -46,20 +47,34 @@ const Program = () => {
   const titleRef = useScrollAnimation();
 
   return (
-    <div className="min-h-screen relative pt-24 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen relative pt-24 px-16 sm:px-6 lg:px-8">
       <GrainBackground />
 
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Title Section */}
         <div ref={titleRef} className="text-center mb-32 fade-up">
-          <h1 className="text-7xl font-bold mb-4 text-white">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-Audiowide font-bold mb-4 text-white">
             LINE-UP
           </h1>
           <div className="w-24 h-1 bg-hot-pink mx-auto rounded-full" />
         </div>
+        
+        <div >
+          <div className="max-w-2xl mx-auto text-center">
+            <div className="bg-white/5 backdrop-blur-md rounded-xl p-8 sm:p-12 border border-white/10">
+              <h2 className="text-4xl sm:text-5xl font-bold text-hot-pink mb-6">
+                To Be Announced
+              </h2>
+              <div className="flex items-center justify-center text-white/80 mb-8">
+                <Clock className="w-6 h-6 mr-2 text-hot-pink" />
+                <span className="text-xl">Coming Soon</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Artists Section */}
-        <div className="space-y-40 pb-32">
+        <div className="space-y-40 pb-32 hidden">
           {artists.map((artist, index) => {
             const scrollRef = useScrollAnimation();
 
@@ -70,6 +85,7 @@ const Program = () => {
             );
           })}
         </div>
+        
       </div>
     </div>
   );
