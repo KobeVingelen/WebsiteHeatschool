@@ -17,19 +17,7 @@ const AboutSection = () => {
             About HEAT
           </h2>
           <div className="text-base sm:text-lg text-gray-300 space-y-4">
-            <p className="leading-relaxed">
-              HEAT dompelt je onder in een 360° dj-setting vol hardgroove en
-              trance. Zes opkomende talenten trappen de avond af met een
-              dj-contest. Wanneer de zaal overkookt, neemt een verhitte
-              line-up het over: TBA
-            </p>
-            <p className="leading-relaxed">
-              In een intieme sfeer, gevoed door jullie zwetende lijven, draait
-              alles om de sterke connectie tussen jou en de dj's, de vibe en
-              de party people. 3am: de winnaar van de contest zet de oven op
-              360. De Boiler Room stoomt voor jou op 22 maart in de 'Club'
-              van Trix, Antwerpen. Scoor je tickets nu!
-            </p>
+          HEAT is a dynamic music event in Antwerp, inspired by the Boiler Room concept. With a 360° stage that places the crowd at the center, the night kicks off with a thrilling DJ contest showcasing emerging talent, followed by a stellar lineup of DJs delivering high-energy hard groove and trance. In an intimate atmosphere fueled by the connection between the DJs, the vibe, and the party people, HEAT promises a night to remember. Join us on May 9, 2025, at Kavka Oudaan, Antwerp. Get your tickets now!
           </div>
         </div>
 
