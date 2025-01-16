@@ -60,7 +60,7 @@ const Footer = () => {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/heat.boiler/"
                 className="text-gray-400 hover:text-hot-pink transition-colors"
               >
                 <Instagram className="w-5 h-5" />
@@ -127,33 +127,32 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Partners */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-hot-pink">Legal</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Partners</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-hot-pink transition-colors"
-                >
-                  Terms & Conditions
-                </a>
+              <img
+                      src="/images/Partners/Alphatheta_logo.png" 
+                      alt="Partner 1"
+                      className="w-full h-auto max-w-[150px]"
+                    />
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-hot-pink transition-colors"
-                >
-                  Privacy Policy
-                </a>
+              <img
+                      src="/images/Partners/Pioneer_logo.png" 
+                      alt="Partner 1"
+                      className="w-full h-auto max-w-[150px]"
+                    />
+
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-hot-pink transition-colors"
-                >
-                  Cookie Policy
-                </a>
+              <img
+                      src="/images/Partners/Pro_gear_logo.png" 
+                      alt="Partner 1"
+                      className="w-full h-auto max-w-[150px]"
+                    />
+                
               </li>
             </ul>
           </div>

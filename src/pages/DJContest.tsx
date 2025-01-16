@@ -50,7 +50,7 @@ const DJContest: React.FC = () => {
               <div className='text-left'>
               <p className="text-base sm:text-lg text-white leading-relaxed mb-6 sm:mb-4 px-2 sm:px-4"/>
               <span className='bold'>Hey DJ!</span>
-              <p>Do you dream of playing the same 360° stage as Barqiemoon, Skeletor Yogi, and Bisoux?</p>
+              <p>Do you dream of playing the same 360° stage as ...</p>
               <p>During the HEAT DJ contest, only 6 talented DJs will get the chance to make the Boiler Room at Kavka Oudaan boil over. Grab your chance, send in your best set, and you might be the one to close the night as the winner and take home a prize from Pioneer!</p>
               </div>
 
