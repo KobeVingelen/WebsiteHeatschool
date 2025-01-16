@@ -28,7 +28,7 @@ const EventDetails = () => {
           21:00 - 04:00
         </p>
       </div>
-      <div className="bg-white/5 backdrop-blur-md rounded-lg p-4 sm:p-6 border border-white/10">
+      <div className="bg-white/5 backdrop-blur-md rounded-lg p-4 sm:p-6 border border-white/10 hover:border-hot-pink/20 transition-colors sm:col-span-2 lg:col-span-1">
         <h3 className="text-lg sm:text-xl font-Audiowide mb-2 text-hot-pink">Tickets</h3>
         <TicketButton />
       </div>

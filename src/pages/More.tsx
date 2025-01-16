@@ -69,7 +69,7 @@ const More: React.FC = () => {
         <div className="bg-white/5 mb-16 backdrop-blur-sm rounded-xl border border-white/10 p-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold mb-2 text-white">Contact Us</h2>
-            <p className="text-gray-400">Can't find what you're looking for? Send us a message!</p>
+            <p className="text-white">Can't find what you're looking for? Send us a message!</p>
           </div>
 
           <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">

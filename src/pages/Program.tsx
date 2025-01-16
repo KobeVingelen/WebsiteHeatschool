@@ -62,12 +62,12 @@ const Program = () => {
         <div >
           <div className="max-w-2xl mx-auto text-center">
             <div className="bg-white/5 backdrop-blur-md rounded-xl p-8 sm:p-12 border border-white/10">
-              <h2 className="text-4xl sm:text-5xl font-bold text-hot-pink mb-6">
+              <h2 className="text-2xl sm:text-3xl font-bold text-hot-pink mb-6">
                 To Be Announced
               </h2>
               <div className="flex items-center justify-center text-white/80 mb-8">
                 <Clock className="w-6 h-6 mr-2 text-hot-pink" />
-                <span className="text-xl">Coming Soon</span>
+                <span className="text-lg">Coming Soon</span>
               </div>
             </div>
           </div>

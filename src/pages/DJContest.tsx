@@ -48,10 +48,10 @@ const DJContest: React.FC = () => {
               
               <h2 className="text-2xl sm:text-4xl md:text-2xl font-bold text-white mb-4 sm:mb-6 font-Audiowide">Show Us Your Skills</h2>
               <div className='text-left'>
-              <p className="text-base sm:text-lg text-white leading-relaxed mb-6 sm:mb-4 px-2 sm:px-4"/>
-              <span className='bold'>Hey DJ!</span>
-              <p>Do you dream of playing the same 360° stage as ...</p>
-              <p>During the HEAT DJ contest, only 6 talented DJs will get the chance to make the Boiler Room at Kavka Oudaan boil over. Grab your chance, send in your best set, and you might be the one to close the night as the winner and take home a prize from Pioneer!</p>
+              <p className="text-base sm:text-lg text-white text-center mb-6 sm:mb-4 px-2 sm:px-4"/>
+              <p className='bold text-center'>Hey DJ!</p>
+              <p className='text-center'>Do you dream of playing the same 360° stage as ...</p>
+              <p className='text-center'>During the HEAT DJ contest, only 6 talented DJs will get the chance to make the Boiler Room at Kavka Oudaan boil over. Grab your chance, send in your best set, and you might be the one to close the night as the winner and take home a prize from Pioneer!</p>
               </div>
 
               <div className='mt-4'>
@@ -81,10 +81,17 @@ const DJContest: React.FC = () => {
               </div>
               </div>
 
-              <div className="grid text-pretty grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+              
+              <div className="max-w-4xl mx-auto text-center mb-4">
+                <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white">
+                  Rounds
+                </h2>
+              </div>
+
+              <div className="grid text-pretty grid-cols-1 sm:grid-cols-1 gap-4 mb-6">
                 {/* Round 1 */}
-                <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
-                  <h3 className="text-xl font-bold text-hot-pink mb-4">Round 1</h3>
+                <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none ">
+                  <h3 className="text-xl font-bold text-left text-hot-pink mb-4">Round 1</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-hot-pink mr-2 ">•</span>
@@ -96,18 +103,18 @@ const DJContest: React.FC = () => {
                     </li>
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
-                      <span className=''>The Top 6 DJs selected by our panel will go to round 2!</span>
+                      <span className=''>The Top 10 DJs selected by our panel will go to round 2!</span>
                     </li>
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
-                      <span>Deadline: TBA</span>
+                      <span>Deadline: <span className='font-extrabold'>02/03/2025</span></span>
                     </li>
                   </ul>
                 </div>
 
                 {/* Round 2 */}
                 <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
-                  <h3 className="text-xl font-bold text-hot-pink mb-4">Round 2</h3>
+                  <h3 className="text-xl font-bold text-left text-hot-pink mb-4">Round 2</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
@@ -115,14 +122,32 @@ const DJContest: React.FC = () => {
                     </li>
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
-                      <span>20-minute live set</span>
-                    </li>
-                    <li>
-                      <span className="text-hot-pink mr-2">•</span>
-                      <span>Winner: Judged on crowd vote!</span>
+                      <span>Selected by online crowd vote!</span>
                     </li>
                   </ul>
                 </div>
+
+                {/* Round 2 */}
+                <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
+                  <h3 className="text-xl font-bold text-left text-hot-pink mb-4">Round 3</h3>
+                  <ul className="text-white flex flex-col text-left space-y-2">
+                    <li>
+                      <span className="text-hot-pink mr-2">•</span>
+                      <span>20-minute live set @ HEAT boilerroom</span>
+                    </li>
+                    
+                    <li>
+                      <span className="text-hot-pink mr-2">•</span>
+                      <span>Winners judged by crowd vote!</span>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+              <div className="max-w-4xl mx-auto text-center mb-4">
+                <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white">
+                  Prizes
+                </h2>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-16">
@@ -135,7 +160,7 @@ const DJContest: React.FC = () => {
                     </li>
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
-                      <span>To be announced</span>
+                      <span>Closing set 03:00 - 04:00</span>
                     </li>
                   </ul>
                 </div>

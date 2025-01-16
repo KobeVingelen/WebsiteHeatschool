@@ -23,7 +23,7 @@ const Footer = () => {
             <h3 className="text-2xl font-bold text-hot-pink mb-2">
               Ready to Experience HEAT?
             </h3>
-            <p className="text-gray-400">
+            <p className="text-white">
               Secure your spot at the ultimate boiler room event
             </p>
           </div>
@@ -43,15 +43,12 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="block mb-4">
               <img
-                src="/images/Heat_standard.png"
+                src="/images/HEAT_logo_nottrans.jpg"
                 alt="HEAT"
                 className="h-16 w-20 object-contain"
               />
             </Link>
-            <p className="text-gray-400 text-sm">
-              Experience the ultimate indoor boiler room event with cutting-edge
-              electronic music and immersive atmosphere.
-            </p>
+            
             <div className="flex space-x-4">
               <a
                 href="#"
