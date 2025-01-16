@@ -42,10 +42,10 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto w-full">
         <div className="flex flex-col justify-center font-Audiowide items-center text-center fade-in animate-in space-y-4">
           <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">
-            <span className="text-white">ANTWERP</span>
+            <span className="text-hot-pink">ANTWERP</span>
           </h1>
           <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter">
-            <span className="text-white">BOILER ROOM</span>
+            <span className="text-hot-pink">BOILER ROOM</span>
           </h2>
         </div>
         <EventDetails />
