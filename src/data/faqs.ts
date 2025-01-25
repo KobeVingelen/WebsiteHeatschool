@@ -7,7 +7,7 @@ export const faqs: FAQ[] = [
   },
   {
     question: "Is there parking available?",
-    answer: "We recommend using public transportation, especially if you plan to drink. There are several paid parking garages within walking distance(Interparking Oudaan)"
+    answer: "We recommend using public transportation, especially if you plan to drink. There are several paid parking garages within walking distance (e.g., Interparking Oudaan)."
   },
   {
     question: "Can I get a refund?",
@@ -15,15 +15,15 @@ export const faqs: FAQ[] = [
   },
   {
     question: "Is there food available?",
-    answer: "No, We recommend eating before arriving."
+    answer: "No, we recommend eating before arrival."
   },
   {
     question: "What's the age requirement?",
-    answer: "This is a strictly 18+ event. Make sure to bring your ID. No exceptions will be made!"
+    answer: "This is a strictly 18+ event, make sure to bring your ID. No exceptions will be made!"
   },
   {
     question: "What items are prohibited?",
-    answer: "Prohibited items include: outside food and drinks, illegal substances, weapons, professional cameras, and recording equipment."
+    answer: "Prohibited items include outside food and drinks, illegal substances, weapons, professional cameras, and recording equipment."
   },
   {
     question: "Is there a smoking area?",
@@ -31,6 +31,6 @@ export const faqs: FAQ[] = [
   },
   {
     question: "What time should I arrive?",
-    answer: "Doors open at 21:00. We recommend arriving early to ensure you don't miss any of the performances from the DJ-contest. Make sure to be on time to cast your vote!"
+    answer: "Doors open at 21:00, we recommend arriving early to ensure you don't miss any of the performances from the DJ contest. Make sure to be on time to cast your vote!"
   }
 ];
