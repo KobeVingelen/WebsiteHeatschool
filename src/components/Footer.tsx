@@ -130,14 +130,14 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
               <img
-                      src="/images/Partners/Alphatheta_logo.png" 
+                      src="/images/Partners/Alphatheta_logo2.png" 
                       alt="Partner 1"
                       className="w-full h-auto max-w-[150px]"
                     />
               </li>
               <li>
               <img
-                      src="/images/Partners/Pioneer_logo.png" 
+                      src="/images/Partners/Pioneer_logo_wit.png" 
                       alt="Partner 1"
                       className="w-full h-auto max-w-[150px]"
                     />
@@ -145,7 +145,7 @@ const Footer = () => {
               </li>
               <li>
               <img
-                      src="/images/Partners/Pro_gear_logo.png" 
+                      src="/images/Partners/Pro_gear_logo_wit.png" 
                       alt="Partner 1"
                       className="w-full h-auto max-w-[150px]"
                     />

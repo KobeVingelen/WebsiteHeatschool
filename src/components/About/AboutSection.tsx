@@ -23,7 +23,7 @@ const AboutSection = () => {
 
         {/* YouTube Player */}
         <div className="relative aspect-video w-full lg:pl-12 mt-8 lg:mt-0">
-          <YouTubePlayer videoId="YOUR_VIDEO_ID" />
+          <YouTubePlayer videoId="24py2CSvqtM" />
         </div>
       </div>
     </div>

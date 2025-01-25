@@ -156,7 +156,7 @@ const DJContest: React.FC = () => {
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
-                      <span>DJ RMX-1000 valued at €749</span>
+                      <span><a className='underline text-blue-400'  href='https://www.progear.be/nl/alphatheta-ddj-grv6-ddj-grv6?colour=243057' target='_blank'>DDJ-GRV6</a> valued at €849,00</span>
                     </li>
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
@@ -170,7 +170,7 @@ const DJContest: React.FC = () => {
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
-                      <span>DJ set DM-50D valued at €249</span>
+                      <span><a className='underline text-blue-400'  href='https://www.progear.be/nl/pioneer-dj-dm-50d-dm-50d?colour=243057' target='_blank'>DJ set DM-50D</a> valued at €249,00</span>
                     </li>
                   </ul>
                 </div>
@@ -180,7 +180,7 @@ const DJContest: React.FC = () => {
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
-                      <span>DJ set DM-40D valued at €179</span>
+                      <span><a className='underline text-blue-400'  href='https://www.progear.be/nl/pioneer-dj-dm-40d-dm-40d' target='_blank'>DJ set DM-40D</a> valued at €179,00</span>
                     </li>
                   </ul>
                 </div>
@@ -198,24 +198,24 @@ const DJContest: React.FC = () => {
 
               <div className="mt-8">
                 <h2 className="text-1xl sm:text-2xl font-bold text-white font-Audiowide underline">Powered by</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center">
+                <div className="mt-2 grid grid-cols-1 sm:grid-cols-3 gap-4 items-center backdrop-blur-sm rounded-lg p-4 border border-white/5">
                   <div className="p-2">
                     <img
-                      src="/images/Partners/Alphatheta_logo.png" 
+                      src="/images/Partners/Alphatheta_logo2.png" 
                       alt="Partner 1"
                       className="w-full h-auto max-w-[300px] mx-auto"
                     />
                   </div>
                   <div className="p-2">
                     <img
-                      src="/images/Partners/Pioneer_logo.png"
+                      src="/images/Partners/Pioneer_logo_wit.png"
                       alt="Partner 2" 
                       className="w-full h-auto max-w-[300px] mx-auto"
                     />
                   </div>
                   <div className="p-2">
                     <img
-                      src="/images/Partners/Pro_gear_logo.png"
+                      src="/images/Partners/Pro_gear_logo_wit.png"
                       alt="Partner 3"
                       className="w-full h-auto max-w-[1200px] mx-auto"
                     />
