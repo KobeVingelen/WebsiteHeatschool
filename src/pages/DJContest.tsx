@@ -49,35 +49,18 @@ const DJContest: React.FC = () => {
               <h2 className="text-2xl sm:text-4xl md:text-2xl font-bold text-white mb-4 sm:mb-6 font-Audiowide">Show Us Your Skills</h2>
               <div className='text-left'>
               <p className="text-base sm:text-lg text-white text-center mb-6 sm:mb-4 px-2 sm:px-4"/>
-              <p className='bold text-center'>Hey DJ!</p>
-              <p className='text-center'>Do you dream of playing the same 360° stage as ...</p>
-              <p className='text-center'>During the HEAT DJ contest, only 6 talented DJs will get the chance to make the Boiler Room at Kavka Oudaan boil over. Grab your chance, send in your best set, and you might be the one to close the night as the winner and take home a prize from Pioneer!</p>
+              <p className='font-bold text-center text-hot-pink text-xl'>HEY DJ!</p>
+              <p className='font-bold text-center'>Do you dream of playing the same 360° stage as ...</p>
+              <p className='font-bold text-center'>During the HEAT DJ contest, only 6 talented DJs will get the chance to make the Boiler Room at Kavka Oudaan boil over. Grab your chance, send in your best set, and you might be the one to close the night as the winner and take home a prize from Pioneer DJ!</p>
               </div>
 
               <div className='mt-4'>
-              <span>Scan the QR code Or <a className='text-hot-pink hover:text-white text-bold' href="#">Click here!</a></span>
+
+                <h1 className='font-bold text-xl'>Want to participate?</h1>
+                <h1 className='font-bold text-xl underline'>Contest starts: 02/02/2025</h1>
+              {/* <span><a className='text-hot-pink hover:text-white text-bold' href="#">Click here!</a></span> */}
               <div className="flex flex-col items-center justify-center mt-4 mb-8">
-                <div className="w-30 h-30 bg-white p-4 rounded-lg">
-                  <div className="w-full h-full grid grid-cols-6 grid-rows-6 gap-1">
-                    {/* QR Code corners */}
-                    <div className="col-span-2 row-span-2 bg-black p-2">
-                      <div className="w-full h-full border-4 border-white bg-black" />
-                    </div>
-                    <div className="col-start-5 col-span-2 row-span-2 bg-black p-2">
-                      <div className="w-full h-full border-4 border-white bg-black" />
-                    </div>
-                    <div className="col-span-2 row-start-5 row-span-2 bg-black p-2">
-                      <div className="w-full h-full border-4 border-white bg-black" />
-                    </div>
-                    {/* Random QR code pattern */}
-                    <div className="col-start-3 row-start-2 bg-black" />
-                    <div className="col-start-4 row-start-3 bg-black" />
-                    <div className="col-start-2 row-start-4 bg-black" />
-                    <div className="col-start-5 row-start-4 bg-black" />
-                    <div className="col-start-3 row-start-5 bg-black" />
-                    <div className="col-start-4 row-start-5 bg-black" />
-                  </div>
-                </div>
+                
               </div>
               </div>
 
@@ -151,12 +134,12 @@ const DJContest: React.FC = () => {
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-16">
-                <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
+                <div className="p-4 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
                   <h3 className="text-xl font-bold text-hot-pink mb-4">1st Place</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
-                      <span><a className='underline text-blue-400'  href='https://www.progear.be/nl/alphatheta-ddj-grv6-ddj-grv6?colour=243057' target='_blank'>DDJ-GRV6</a> valued at €849,00</span>
+                      <span><a className='font-bold text-blue-400'  href='https://www.progear.be/nl/alphatheta-ddj-grv6-ddj-grv6?colour=243057' target='_blank'>DDJ-GRV6</a> valued at €849,00</span>
                     </li>
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
@@ -165,22 +148,22 @@ const DJContest: React.FC = () => {
                   </ul>
                 </div>
 
-                <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
+                <div className="p-4 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
                   <h3 className="text-xl font-bold text-hot-pink mb-4">2nd Place</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
-                      <span><a className='underline text-blue-400'  href='https://www.progear.be/nl/pioneer-dj-dm-50d-dm-50d?colour=243057' target='_blank'>DJ set DM-50D</a> valued at €249,00</span>
+                      <span><a className='font-bold text-blue-400'  href='https://www.progear.be/nl/pioneer-dj-dm-50d-dm-50d?colour=243057' target='_blank'>DJ set DM-50D</a> valued at €249,00</span>
                     </li>
                   </ul>
                 </div>
 
-                <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
+                <div className="p-4 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
                   <h3 className="text-xl font-bold text-hot-pink mb-4">3rd Place</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
-                      <span><a className='underline text-blue-400'  href='https://www.progear.be/nl/pioneer-dj-dm-40d-dm-40d' target='_blank'>DJ set DM-40D</a> valued at €179,00</span>
+                      <span><a className='font-bold text-blue-400'  href='https://www.progear.be/nl/pioneer-dj-dm-40d-dm-40d' target='_blank'>DJ set DM-40D</a> valued at €179,00</span>
                     </li>
                   </ul>
                 </div>

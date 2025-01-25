@@ -126,7 +126,7 @@ const Footer = () => {
 
           {/* Partners */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Partners</h3>
+            <h3 className="text-lg font-semibold mb-4 text-hot-pink">Partners</h3>
             <ul className="space-y-2">
               <li>
               <img
