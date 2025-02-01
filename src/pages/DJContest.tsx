@@ -50,15 +50,20 @@ const DJContest: React.FC = () => {
               <div className='text-left'>
               <p className="text-base sm:text-lg text-white text-center mb-6 sm:mb-4 px-2 sm:px-4"/>
               <p className='font-bold text-center text-hot-pink text-xl'>HEY DJ!</p>
-              <p className='font-bold text-center'>Do you dream of playing the same 360° stage as ...</p>
+              <p className='font-bold text-center'>Do you dream of playing the same 360° stage as Barqiemoon, Bisoux and Skeletor Yogi</p>
               <p className='font-bold text-center'>During the HEAT DJ contest, only 6 talented DJs will get the chance to make the Boiler Room at Kavka Oudaan boil over. Grab your chance, send in your best set, and you might be the one to close the night as the winner and take home a prize from Pioneer DJ!</p>
               </div>
 
               <div className='mt-4'>
 
                 <h1 className='font-bold text-xl'>Want to participate?</h1>
-                <h1 className='font-bold text-xl underline'>Contest starts: 02/02/2025</h1>
-              {/* <span><a className='text-hot-pink hover:text-white text-bold' href="#">Click here!</a></span> */}
+                
+              <span><a className='text-hot-pink text-xl hover:text-white font-extrabold underline' href="https://docs.google.com/forms/d/e/1FAIpQLSd92yptNJh5i-Z2qY0MlYb_EuuZD9F05rRCOImKW-gI0uhfMQ/viewform?usp=dialog">Click here!</a></span>
+              <img 
+                src="/images//QR-cpde.png"
+                alt="DJ Contest Flyer"
+                className="w-32 sm:w-32 md:w-48 mx-auto mt-4 rounded-lg"
+              />
               <div className="flex flex-col items-center justify-center mt-4 mb-8">
                 
               </div>

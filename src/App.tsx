@@ -18,7 +18,7 @@ function AppContent() {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col">
-      {isLoading && <LoadingOverlay onLoadingComplete={() => setIsLoading(false)} />}
+      {isLoading && <LoadingOverlay  onLoadingComplete={() => setIsLoading(false)} />}
       <Navbar />
       <main className="flex-grow">
         <Suspense fallback={<LoadingOverlay onLoadingComplete={() => setIsLoading(false)} />}>
