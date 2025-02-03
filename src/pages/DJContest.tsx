@@ -66,6 +66,7 @@ const DJContest: React.FC = () => {
               />
               <div className="flex flex-col items-center justify-center mt-4 mb-8">
                 
+                
               </div>
               </div>
 
