@@ -47,13 +47,13 @@ const Program = () => {
   const titleRef = useScrollAnimation();
 
   return (
-    <div className="min-h-screen relative pt-24 px-8 sm:px-6 lg:px-8">
+    <div className="min-h-screen relative pt-24 px-8 sm:px-6 lg:px-8 mx-auto 2xl:w-7/12 xl:w-9/12 lg:w-11/12">
       <GrainBackground />
 
-      <div className=" sm:w-3/6 mx-auto relative z-10">
+      <div className=" mx-auto relative z-10">
         {/* Title Section */}
-        <div ref={titleRef} className="text-center mt-10 mb-16 md:mb-20  fade-up">
-          <h1 className="text-4xl md:text-5xl lg:text-4xl font-Audiowide font-bold mb-2 text-white">
+        <div ref={titleRef} className="text-center mb-16 md:mb-32  fade-up">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-Audiowide font-bold mb-4 text-white">
             LINE-UP
           </h1>
           <div className="w-24 h-1 bg-hot-pink mx-auto rounded-full" />
@@ -61,7 +61,7 @@ const Program = () => {
 
 
         {/* Artists Section */}
-        <div className="space-y-40 pb-16 sm:pb-32">
+        <div className="space-y-40 pb-32">
           {artists.map((artist, index) => {
             const scrollRef = useScrollAnimation();
 

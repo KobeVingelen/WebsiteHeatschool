@@ -27,10 +27,10 @@ export const faqs: FAQ[] = [
   },
   {
     question: "Is there a smoking area?",
-    answer: "There is a designated outdoor smoking area. The venue itself is non-smoking. Vaping is also only permitted in the designated smoking area."
+    answer: "There is a designated indoor smoking area. The venue itself is non-smoking. Vaping is also only permitted in the designated smoking area."
   },
   {
     question: "What time should I arrive?",
-    answer: "Doors open at 21:00, we recommend arriving early to ensure you don't miss any of the performances from the DJ contest. Make sure to be on time to cast your vote!"
+    answer: "Doors open at 20:30, we recommend arriving early to ensure you don't miss any of the performances from the DJ contest. Make sure to be on time to cast your vote!"
   }
 ];
