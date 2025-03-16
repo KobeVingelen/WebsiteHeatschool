@@ -95,15 +95,15 @@ const DJContest: React.FC = () => {
                 <p className='font-bold text-center'>Do you dream of playing the same 360° stage as Barqiemoon, Bisoux and Skeletor Yogi</p>
                 <p className='font-bold text-center'>During the HEAT DJ contest, only 6 talented DJs will get the chance to make the Boiler Room at Kavka Oudaan boil over. Grab your chance, send in your best set, and you might be the one to close the night as the winner and take home a prize from Pioneer DJ!</p>
               </div>
-              <div className="max-w-4xl mx-auto text-center mb-4">
+              <div className="max-w-4xl mx-auto text-center mb-4 mt-4">
                 <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white">
                   Rounds
                 </h2>
               </div>
 
-              <div className="grid text-pretty grid-cols-1 sm:grid-cols-1 gap-4 mb-6">
+              <div className="grid text-pretty grid-cols-1 sm:grid-cols-1 gap-4 mb-6 ">
                 {/* Round 1 */}
-                <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none ">
+                <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none opacity-50 ">
                   <h3 className="text-xl font-bold text-left text-hot-pink mb-4">Round 1</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
@@ -123,7 +123,7 @@ const DJContest: React.FC = () => {
                 </div>
 
                 {/* Round 2 */}
-                <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
+                <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none opacity-50">
                   <h3 className="text-xl font-bold text-left text-hot-pink mb-4">Round 2</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
 
@@ -219,12 +219,18 @@ const DJContest: React.FC = () => {
                 </div>
               </div>
 
+              <div className="max-w-4xl mx-auto text-center mb-4 mt-4">
+                <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white">
+                  Contestants
+                </h2>
+              </div>
+
               {/* Contestants cards */}
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 ">
                 {contestants.map((contestant, index) => (
                   <div
                     key={index}
-                    className="group relative overflow-hidden rounded-sm bg-white/5 backdrop-blur-sm border border-white/10 hover:border-hot-pink/20 transition-all hover:-translate-y-1"
+                    className="group relative overflow-hidden rounded-sm bg-white/5 backdrop-blur-sm border border-white/10 transition-all hover:-translate-y-1"
                   >
                     <div className="aspect-square overflow-hidden relative">
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
@@ -234,10 +240,7 @@ const DJContest: React.FC = () => {
                         className="w-full h-full object-cover transition-transform"
                       />
                       <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
-                        <div className="inline-flex items-center px-3 py-1 rounded-full bg-hot-pink/20 border border-hot-pink/30 text-hot-pink text-sm mb-2">
-                          <Music className="w-4 h-4 mr-2" />
-                          {contestant.genre}
-                        </div>
+                        
                       </div>
                     </div>
                     <div className="p-6">
