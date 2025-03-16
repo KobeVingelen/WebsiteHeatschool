@@ -27,7 +27,7 @@ const Navbar = () => {
           <div className="flex md:hidden ml-auto">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-300 hover:text-hot-pink hover:bg-black focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-300 hover:text-heat-pink hover:bg-black focus:outline-none"
               aria-label={isOpen ? 'Close menu' : 'Open menu'}
             >
               {isOpen ? (

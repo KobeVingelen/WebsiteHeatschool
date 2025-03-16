@@ -9,7 +9,7 @@ const AboutSection = () => {
     <div ref={aboutRef} className="mx-auto px-4 sm:px-6 fade-up 2xl:w-8/12 xl:w-9/12 lg:w-11/12">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 relative items-center">
         {/* Gradient Border for Desktop */}
-        <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-transparent via-hot-pink to-transparent transform -translate-x-1/2" />
+        <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-transparent via-heat-pink to-transparent transform -translate-x-1/2" />
         
         {/* Text Content */}
         <div className="space-y-4 sm:space-y-6">

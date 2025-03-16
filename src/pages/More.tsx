@@ -50,7 +50,7 @@ const More: React.FC = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-Audiowide font-bold mb-4 text-white">
             FAQ
           </h1>
-          <div className="w-24 h-1 bg-hot-pink mx-auto rounded-full" />
+          <div className="w-24 h-1 bg-heat-pink mx-auto rounded-full" />
         </div>
 
         <div className="text-xl text-white text-center mb-8">
@@ -86,7 +86,7 @@ const More: React.FC = () => {
                   required
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="block w-full pl-12 pr-4 py-3 bg-black/50 border border-white/10 rounded-lg focus:ring-hot-pink focus:border-hot-pink text-white placeholder-gray-400"
+                  className="block w-full pl-12 pr-4 py-3 bg-black/50 border border-white/10 rounded-lg focus:ring-heat-pink focus:border-heat-pink text-white placeholder-gray-400"
                   placeholder="your@email.com"
                 />
               </div>
@@ -103,7 +103,7 @@ const More: React.FC = () => {
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 rows={5}
-                className="block w-full px-4 py-3 bg-black/50 border border-white/10 rounded-lg focus:ring-hot-pink focus:border-hot-pink text-white placeholder-gray-400"
+                className="block w-full px-4 py-3 bg-black/50 border border-white/10 rounded-lg focus:ring-heat-pink focus:border-heat-pink text-white placeholder-gray-400"
                 placeholder="Type your message here..."
               />
             </div>
@@ -111,7 +111,7 @@ const More: React.FC = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-hot-pink rounded hover:bg-white hover:text-hot-pink transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-hot-pink transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-heat-pink rounded hover:bg-white hover:text-heat-pink transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-heat-pink transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isSubmitting ? (
                 'Sending...'

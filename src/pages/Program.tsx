@@ -56,7 +56,7 @@ const Program = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-Audiowide font-bold mb-4 text-white">
             LINE-UP
           </h1>
-          <div className="w-24 h-1 bg-hot-pink mx-auto rounded-full" />
+          <div className="w-24 h-1 bg-heat-pink mx-auto rounded-full" />
         </div>
 
 

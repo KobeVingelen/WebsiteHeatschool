@@ -91,7 +91,7 @@ const Djcarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
   // Calculate the transform value based on the current index and visible items
   const translateX = `translateX(-${currentIndex * (100 / visibleItems)}%)`;
 
-  const buttonClasses = "absolute top-1/2 -translate-y-1/2 z-10 bg-hot-pink/80 hover:bg-hot-pink text-white p-2 transition-colors";
+  const buttonClasses = "absolute top-1/2 -translate-y-1/2 z-10 bg-heat-pink/80 hover:bg-heat-pink text-white p-2 transition-colors";
 
   return (
     <div className="relative w-full">

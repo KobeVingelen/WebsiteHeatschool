@@ -15,7 +15,7 @@ const NavLinks = () => {
         <Link
           key={link.to}
           to={link.to}
-          className="text-white hover:text-hot-pink font-bold transition-colors"
+          className="text-white hover:text-heat-pink font-bold transition-colors"
         >
           {link.label}
         </Link>

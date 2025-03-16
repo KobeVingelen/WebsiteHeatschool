@@ -17,9 +17,9 @@ const Accordion = ({ title, children }: AccordionProps) => {
       >
         <span className="text-lg font-medium text-white">{title}</span>
         {isOpen ? (
-          <ChevronUp className="w-5 h-5 text-hot-pink" />
+          <ChevronUp className="w-5 h-5 text-heat-pink" />
         ) : (
-          <ChevronDown className="w-5 h-5 text-hot-pink" />
+          <ChevronDown className="w-5 h-5 text-heat-pink" />
         )}
       </button>
       {isOpen && (

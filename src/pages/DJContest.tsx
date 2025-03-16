@@ -78,7 +78,7 @@ const DJContest: React.FC = () => {
           <h1 className="text-4xl md:text-5xl lg:text-4xl font-Audiowide font-bold mb-2 text-white">
             DJ contest
           </h1>
-          <div className="w-24 h-1 bg-hot-pink mx-auto rounded-full" />
+          <div className="w-24 h-1 bg-heat-pink mx-auto rounded-full" />
         </div>
 
         <div className="sm:w-3/6 mx-auto mb-16 sm:mb-8 ">
@@ -87,7 +87,7 @@ const DJContest: React.FC = () => {
               <h2 className="text-2xl sm:text-4xl md:text-2xl font-bold text-white mb-4 sm:mb-6 font-Audiowide">Show Us Your Skills</h2>
               <div className='text-left '>
                 <p className="text-base sm:text-lg text-white text-center mb-6 sm:mb-4 px-2 sm:px-4" />
-                <p className='font-bold text-center text-hot-pink text-xl'>HEY DJ!</p>
+                <p className='font-bold text-center text-heat-pink text-xl'>HEY DJ!</p>
                 <p className='font-bold text-center'>Do you dream of playing the same 360° stage as Barqiemoon, Bisoux and Skeletor Yogi</p>
                 <p className='font-bold text-center'>During the HEAT DJ contest, only 6 talented DJs will get the chance to make the Boiler Room at Kavka Oudaan boil over. Grab your chance, send in your best set, and you might be the one to close the night as the winner and take home a prize from Pioneer DJ!</p>
               </div>
@@ -101,18 +101,18 @@ const DJContest: React.FC = () => {
               <div className="grid text-pretty grid-cols-1 sm:grid-cols-1 gap-4 mb-6 ">
                 {/* Round 1 */}
                 <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none opacity-50 ">
-                  <h3 className="text-xl font-bold text-left text-hot-pink mb-4">Round 1</h3>
+                  <h3 className="text-xl font-bold text-left text-heat-pink mb-4">Round 1</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
-                      <span className="text-hot-pink mr-2 ">•</span>
+                      <span className="text-heat-pink mr-2 ">•</span>
                       <span>Submit your best 20-minute set!</span>
                     </li>
                     <li>
-                      <span className="text-hot-pink mr-2 ">•</span>
+                      <span className="text-heat-pink mr-2 ">•</span>
                       <span>Genre: Hardgroove, Trance</span>
                     </li>
                     <li>
-                      <span className="text-hot-pink mr-2">•</span>
+                      <span className="text-heat-pink mr-2">•</span>
                       <span>Deadline: <span className='font-extrabold'>02/03/2025</span></span>
                     </li>
                   </ul>
@@ -120,14 +120,14 @@ const DJContest: React.FC = () => {
 
                 {/* Round 2 */}
                 <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none opacity-50">
-                  <h3 className="text-xl font-bold text-left text-hot-pink mb-4">Round 2</h3>
+                  <h3 className="text-xl font-bold text-left text-heat-pink mb-4">Round 2</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
-                      <span className="text-hot-pink mr-2">•</span>
+                      <span className="text-heat-pink mr-2">•</span>
                       <span className=''>Selection of our 10 favorite sets.</span>
                     </li>
                     <li>
-                      <span className="text-hot-pink mr-2">•</span>
+                      <span className="text-heat-pink mr-2">•</span>
                       <span className=''>1 wildcard will been chosen by our line-up, advancing directly to the final.</span>
                     </li>
                   </ul>
@@ -135,15 +135,15 @@ const DJContest: React.FC = () => {
 
                 {/* Round 3 */}
                 <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
-                  <h3 className="text-xl font-bold text-left text-hot-pink mb-4">Round 3</h3>
+                  <h3 className="text-xl font-bold text-left text-heat-pink mb-4">Round 3</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
-                      <span className="text-hot-pink mr-2">•</span>
+                      <span className="text-heat-pink mr-2">•</span>
                       <span>5 of the 10 finalists will advance to the final round through online public vote.</span>
                     </li>
                     <li>
                       <span>
-                        <button className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-hot-pink rounded hover:bg-white hover:text-hot-pink transition-colors">
+                        <button className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-heat-pink rounded hover:bg-white hover:text-heat-pink transition-colors">
                           <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_lwyVAR_lohMmf4lhntB9ZqpKAnIKwO8gt7jtrfGhQng1Kw/viewform" target="_blank" rel="noopener noreferrer">
                             Vote here!
                           </a>
@@ -155,14 +155,14 @@ const DJContest: React.FC = () => {
 
                 {/* Round 4 */}
                 <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
-                  <h3 className="text-xl font-bold text-left text-hot-pink mb-4">Round 4</h3>
+                  <h3 className="text-xl font-bold text-left text-heat-pink mb-4">Round 4</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
-                      <span className="text-hot-pink mr-2">•</span>
+                      <span className="text-heat-pink mr-2">•</span>
                       <span>20-minute live set @ HEAT boilerroom</span>
                     </li>
                     <li>
-                      <span className="text-hot-pink mr-2">•</span>
+                      <span className="text-heat-pink mr-2">•</span>
                       <span>Winners judged by crowd vote!</span>
                     </li>
                   </ul>
@@ -177,34 +177,34 @@ const DJContest: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-16">
                 <div className="p-4 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
-                  <h3 className="text-xl font-bold text-hot-pink mb-4">1st Place</h3>
+                  <h3 className="text-xl font-bold text-heat-pink mb-4">1st Place</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
-                      <span className="text-hot-pink mr-2">•</span>
+                      <span className="text-heat-pink mr-2">•</span>
                       <span><a className='font-bold text-blue-400' href='https://www.progear.be/nl/alphatheta-ddj-grv6-ddj-grv6?colour=243057' target='_blank'>DDJ-GRV6</a> valued at €849,00</span>
                     </li>
                     <li>
-                      <span className="text-hot-pink mr-2">•</span>
+                      <span className="text-heat-pink mr-2">•</span>
                       <span>Closing set 03:00 - 04:00</span>
                     </li>
                   </ul>
                 </div>
 
                 <div className="p-4 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
-                  <h3 className="text-xl font-bold text-hot-pink mb-4">2nd Place</h3>
+                  <h3 className="text-xl font-bold text-heat-pink mb-4">2nd Place</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
-                      <span className="text-hot-pink mr-2">•</span>
+                      <span className="text-heat-pink mr-2">•</span>
                       <span><a className='font-bold text-blue-400' href='https://www.progear.be/nl/pioneer-dj-dm-50d-dm-50d?colour=243057' target='_blank'>DJ set DM-50D</a> valued at €249,00</span>
                     </li>
                   </ul>
                 </div>
 
                 <div className="p-4 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
-                  <h3 className="text-xl font-bold text-hot-pink mb-4">3rd Place</h3>
+                  <h3 className="text-xl font-bold text-heat-pink mb-4">3rd Place</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
-                      <span className="text-hot-pink mr-2">•</span>
+                      <span className="text-heat-pink mr-2">•</span>
                       <span><a className='font-bold text-blue-400' href='https://www.progear.be/nl/pioneer-dj-dm-40d-dm-40d' target='_blank'>DJ set DM-40D</a> valued at €179,00</span>
                     </li>
                   </ul>

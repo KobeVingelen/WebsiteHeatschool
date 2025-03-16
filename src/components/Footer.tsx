@@ -20,7 +20,7 @@ const Footer = () => {
         {/* Ticket Purchase Banner */}
         <div className="mb-12 p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 flex flex-col md:flex-row items-center justify-between">
           <div className="mb-4 md:mb-0">
-            <h3 className="text-xl sm:text-lg font-bold text-hot-pink mb-2">
+            <h3 className="text-xl sm:text-lg font-bold text-heat-pink mb-2">
               Ready to Experience HEAT?
             </h3>
             <p className="text-white text-md">
@@ -31,7 +31,7 @@ const Footer = () => {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-3 text-md sm:text-xs font-medium text-white bg-hot-pink rounded hover:bg-white hover:text-hot-pink transition-colors"
+            className="inline-flex items-center px-3 py-3 text-md sm:text-xs font-medium text-white bg-heat-pink rounded hover:bg-white hover:text-heat-pink transition-colors"
           >
             <Ticket className="w-5 h-5 mr-2 " />
             Buy Tickets Now
@@ -52,13 +52,13 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="https://www.facebook.com/events/1340066513673879"
-                className="text-gray-400 hover:text-hot-pink transition-colors"
+                className="text-gray-400 hover:text-heat-pink transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
                 href="https://www.instagram.com/heat.boiler/"
-                className="text-gray-400 hover:text-hot-pink transition-colors"
+                className="text-gray-400 hover:text-heat-pink transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
@@ -67,14 +67,14 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-hot-pink">
+            <h3 className="text-lg font-semibold mb-4 text-heat-pink">
               Quick Links
             </h3>
             <ul className="space-y-2">
               <li>
                 <Link
                   to="/"
-                  className="text-gray-400 hover:text-hot-pink transition-colors"
+                  className="text-gray-400 hover:text-heat-pink transition-colors"
                 >
                   Home
                 </Link>
@@ -82,7 +82,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/program"
-                  className="text-gray-400 hover:text-hot-pink transition-colors"
+                  className="text-gray-400 hover:text-heat-pink transition-colors"
                 >
                   Line-up
                 </Link>
@@ -90,7 +90,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/more"
-                  className="text-gray-400 hover:text-hot-pink transition-colors"
+                  className="text-gray-400 hover:text-heat-pinktransition-colors"
                 >
                   FAQ
                 </Link>
@@ -98,7 +98,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/dj-contest"
-                  className="text-gray-400 hover:text-hot-pink transition-colors"
+                  className="text-gray-400 hover:text-heat-pink transition-colors"
                 >
                   DJ Contest
                 </Link>
@@ -108,14 +108,14 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-hot-pink">
+            <h3 className="text-lg font-semibold mb-4 text-heat-pink">
               Contact Us
             </h3>
             <ul className="space-y-2">
               <li>
                 <a
                   href="mailto:info@heat-event.com"
-                  className="text-gray-400 hover:text-hot-pink transition-colors flex items-center"
+                  className="text-gray-400 hover:text-heat-pink transition-colors flex items-center"
                 >
                   <Mail className="w-4 h-4 mr-2" />
                   info@heatboiler.be
@@ -126,7 +126,7 @@ const Footer = () => {
 
           {/* Partners */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-hot-pink">Partners</h3>
+            <h3 className="text-lg font-semibold mb-4 text-heat-pink">Partners</h3>
             <ul className="space-y-2">
               <li>
               <img

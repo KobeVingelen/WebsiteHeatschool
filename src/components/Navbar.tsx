@@ -12,7 +12,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link
             to="/"
-            className="text-2xl font-bold text-white hover:text-hot-pink transition-colors"
+            className="text-2xl font-bold text-white hover:text-heat-pink transition-colors"
           >
             <img
               src="/images/HEAT_logo_nottrans.jpg"
@@ -24,25 +24,25 @@ const Navbar = () => {
           <div className="text-xs hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className=" text-white font-Audiowide hover:text-hot-pink font-bold transition-colors"
+              className=" text-white font-Audiowide hover:text-heat-pink font-bold transition-colors"
             >
               Home
             </Link>
             <Link
               to="/program"
-              className="text-white font-Audiowide hover:text-hot-pink font-bold transition-colors"
+              className="text-white font-Audiowide hover:text-heat-pink font-bold transition-colors"
             >
               Line-up
             </Link>
             <Link
               to="/dj-contest"
-              className="text-white font-Audiowide hover:text-hot-pink font-bold transition-colors"
+              className="text-white font-Audiowide hover:text-heat-pink font-bold transition-colors"
             >
               DJ Contest
             </Link>
             <Link
               to="/more"
-              className="text-white font-Audiowide hover:text-hot-pink font-bold transition-colors"
+              className="text-white font-Audiowide hover:text-heat-pink font-bold transition-colors"
             >
               FAQ
             </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
               href="#"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 text-sx font-medium text-white bg-hot-pink rounded hover:bg-white hover:text-hot-pink transition-colors"
+              className="inline-flex items-center px-4 py-2 text-sx font-medium text-white bg-heat-pink rounded hover:bg-white hover:text-heat-pink transition-colors"
             >
               <Ticket className="w-4 h-4 mr-2" />
               Buy Tickets
@@ -61,7 +61,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-300 hover:text-hot-pink hover:bg-black focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-300 hover:text-heat-pink hover:bg-black focus:outline-none"
             >
               {isOpen ? (
                 <X className="block h-6 w-6" aria-hidden="true" />
@@ -89,7 +89,7 @@ const Navbar = () => {
             {/* Close button */}
             <button
               onClick={() => setIsOpen(false)}
-              className="absolute top-4 right-4 p-2 text-gray-300 hover:text-hot-pink"
+              className="absolute top-4 right-4 p-2 text-gray-300 hover:text-heat-pink"
             >
               <X className="h-6 w-6" aria-hidden="true" />
             </button>
@@ -99,28 +99,28 @@ const Navbar = () => {
               <div className="w-full max-w-xs text-center mx-auto">
                 <Link
                   to="/"
-                  className="text-2xl font-bold text-white font-Audiowide hover:text-hot-pink transition-colors block"
+                  className="text-2xl font-bold text-white font-Audiowide hover:text-heat-pink transition-colors block"
                   onClick={() => setIsOpen(false)}
                 >
                   Home
                 </Link>
                 <Link
                   to="/program"
-                  className="text-2xl font-bold text-white font-Audiowide hover:text-hot-pink transition-colors block mt-8"
+                  className="text-2xl font-bold text-white font-Audiowide hover:text-heat-pink transition-colors block mt-8"
                   onClick={() => setIsOpen(false)}
                 >
                   Line-up
                 </Link>
                 <Link
                   to="/dj-contest"
-                  className="text-2xl font-bold text-white font-Audiowide hover:text-hot-pink transition-colors block mt-8"
+                  className="text-2xl font-bold text-white font-Audiowide hover:text-heat-pink transition-colors block mt-8"
                   onClick={() => setIsOpen(false)}
                 >
                   DJ Contest
                 </Link>
                 <Link
                   to="/more"
-                  className="text-2xl font-bold text-white font-Audiowide hover:text-hot-pink transition-colors block mt-8"
+                  className="text-2xl font-bold text-white font-Audiowide hover:text-heat-pinktransition-colors block mt-8"
                   onClick={() => setIsOpen(false)}
                 >
                   FAQ
@@ -131,7 +131,7 @@ const Navbar = () => {
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-12 inline-flex items-center px-3 py-1 text-lg font-medium text-white bg-hot-pink rounded hover:bg-white hover:text-hot-pink transition-colors"
+                  className="mt-12 inline-flex items-center px-3 py-1 text-lg font-medium text-white bg-heat-pink rounded hover:bg-white hover:text-heat-pink transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   <Ticket className="w-5 h-5 mr-2" />

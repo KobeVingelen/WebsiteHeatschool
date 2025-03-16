@@ -20,8 +20,8 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   const baseStyles = "inline-flex items-center justify-center px-6 py-3 font-medium rounded-lg transition-colors";
   const variants = {
-    primary: "text-white bg-hot-pink hover:bg-hot-pink/90",
-    outline: "border border-hot-pink text-hot-pink hover:bg-hot-pink hover:text-white"
+    primary: "text-white bg-heat-pink hover:bg-heat-pink/90",
+    outline: "border border-heat-pink text-heat-pink hover:bg-heat-pink hover:text-white"
   };
 
   const ButtonContent = () => (
