@@ -10,7 +10,7 @@ interface MobileMenuProps {
 const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
   return (
     <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
-      <div className="px-2 pt-2 pb-3 space-y-1 bg-black/90 backdrop-blur-sm border-b border-white/10">
+      <div className=" text-xs px-2 pt-2 pb-3 space-y-1 bg-black/90 backdrop-blur-sm border-b border-white/10">
         <Link
           to="/"
           className="block px-3 py-2 text-base  font-medium text-bold text-gray-300 hover:text-hot-pink hover:bg-white/5 rounded-md transition-colors"

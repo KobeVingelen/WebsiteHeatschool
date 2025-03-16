@@ -28,6 +28,7 @@ const Home = () => {
         <div className="absolute inset-0">
           <video
           muted
+            preload="auto"
             autoPlay
             loop
             playsInline

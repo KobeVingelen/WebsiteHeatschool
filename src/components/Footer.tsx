@@ -16,14 +16,14 @@ const Footer = () => {
 
   return (
     <footer className="bg-black/90 border-t border-white/10 z-40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:w-4/6">
         {/* Ticket Purchase Banner */}
         <div className="mb-12 p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 flex flex-col md:flex-row items-center justify-between">
           <div className="mb-4 md:mb-0">
-            <h3 className="text-2xl font-bold text-hot-pink mb-2">
+            <h3 className="text-xl sm:text-lg font-bold text-hot-pink mb-2">
               Ready to Experience HEAT?
             </h3>
-            <p className="text-white">
+            <p className="text-white text-md">
               Secure your spot at the ultimate boiler room event
             </p>
           </div>
@@ -31,7 +31,7 @@ const Footer = () => {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-3 py-3 text-lg font-medium text-white bg-hot-pink rounded hover:bg-white hover:text-hot-pink transition-colors"
+            className="inline-flex items-center px-3 py-3 text-md sm:text-xs font-medium text-white bg-hot-pink rounded hover:bg-white hover:text-hot-pink transition-colors"
           >
             <Ticket className="w-5 h-5 mr-2 " />
             Buy Tickets Now

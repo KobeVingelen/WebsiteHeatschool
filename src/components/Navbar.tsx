@@ -6,8 +6,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full z-50 bg-black border-b border-white/10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="fixed w-full z-50 text-xs bg-black border-b border-white/10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:w-4/6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link
@@ -21,10 +21,10 @@ const Navbar = () => {
             />
           </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="text-xs hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className="text-white font-Audiowide hover:text-hot-pink font-bold transition-colors"
+              className=" text-white font-Audiowide hover:text-hot-pink font-bold transition-colors"
             >
               Home
             </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
               href="#"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-hot-pink rounded hover:bg-white hover:text-hot-pink transition-colors"
+              className="inline-flex items-center px-4 py-2 text-sx font-medium text-white bg-hot-pink rounded hover:bg-white hover:text-hot-pink transition-colors"
             >
               <Ticket className="w-4 h-4 mr-2" />
               Buy Tickets
