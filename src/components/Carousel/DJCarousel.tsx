@@ -9,11 +9,11 @@ interface Contestant {
   trackUrl: string;
 }
 
-interface DJCarouselProps {
+interface DjcarouselProps {
   contestants: Contestant[];
 }
 
-const Djcarousel: React.FC<DJCarouselProps> = ({ contestants }) => {
+const Djcarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [visibleItems, setVisibleItems] = useState(3);
