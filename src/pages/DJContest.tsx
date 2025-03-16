@@ -1,7 +1,7 @@
 import React from 'react';
 import GrainBackground from '../components/GrainBackground';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-import Djcarousel from '../components/Carousel/Djcarousel';
+import DJCarousel from '../components/Carousel/Djcarousel';
 
 const contestants = [
   {
@@ -215,7 +215,7 @@ const DJContest: React.FC = () => {
                 <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white mb-8">
                   Contestants
                 </h2>
-                <Djcarousel contestants={contestants} />
+                <DJCarousel contestants={contestants} />
               </div>
 
               <div className="mt-8">
