@@ -1,10 +1,7 @@
 import React from 'react';
-import { Music, Send, Headphones } from 'lucide-react';
-import SoundCloudPlayer from '../components/SoundCloudPlayer';
-
 import GrainBackground from '../components/GrainBackground';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-import Button from '../components/Button';
+import DJCarousel from '../components/Carousel/Djcarousel';
 
 const contestants = [
   {
@@ -87,7 +84,6 @@ const DJContest: React.FC = () => {
         <div className="max-w-4xl mx-auto mb-16 sm:mb-24">
           <div className="">
             <div className="p-4 sm:p-8 text-center">
-
               <h2 className="text-2xl sm:text-4xl md:text-2xl font-bold text-white mb-4 sm:mb-6 font-Audiowide">Show Us Your Skills</h2>
               <div className='text-left'>
                 <p className="text-base sm:text-lg text-white text-center mb-6 sm:mb-4 px-2 sm:px-4" />
@@ -95,6 +91,7 @@ const DJContest: React.FC = () => {
                 <p className='font-bold text-center'>Do you dream of playing the same 360° stage as Barqiemoon, Bisoux and Skeletor Yogi</p>
                 <p className='font-bold text-center'>During the HEAT DJ contest, only 6 talented DJs will get the chance to make the Boiler Room at Kavka Oudaan boil over. Grab your chance, send in your best set, and you might be the one to close the night as the winner and take home a prize from Pioneer DJ!</p>
               </div>
+
               <div className="max-w-4xl mx-auto text-center mb-4 mt-4">
                 <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white">
                   Rounds
@@ -114,7 +111,6 @@ const DJContest: React.FC = () => {
                       <span className="text-hot-pink mr-2 ">•</span>
                       <span>Genre: Hardgroove, Trance</span>
                     </li>
-
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
                       <span>Deadline: <span className='font-extrabold'>02/03/2025</span></span>
@@ -126,17 +122,14 @@ const DJContest: React.FC = () => {
                 <div className="p-6 rounded-sm bg-white/5 backdrop-blur-sm border border-none opacity-50">
                   <h3 className="text-xl font-bold text-left text-hot-pink mb-4">Round 2</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
-
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
                       <span className=''>Selection of our 10 favorite sets.</span>
                     </li>
-
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
                       <span className=''>1 wildcard will been chosen by our line-up, advancing directly to the final.</span>
                     </li>
-
                   </ul>
                 </div>
 
@@ -168,15 +161,14 @@ const DJContest: React.FC = () => {
                       <span className="text-hot-pink mr-2">•</span>
                       <span>20-minute live set @ HEAT boilerroom</span>
                     </li>
-
                     <li>
                       <span className="text-hot-pink mr-2">•</span>
                       <span>Winners judged by crowd vote!</span>
                     </li>
                   </ul>
                 </div>
-
               </div>
+
               <div className="max-w-4xl mx-auto text-center mb-4">
                 <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white">
                   Prizes
@@ -220,35 +212,10 @@ const DJContest: React.FC = () => {
               </div>
 
               <div className="max-w-4xl mx-auto text-center mb-4 mt-4">
-                <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white">
+                <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white mb-8">
                   Contestants
                 </h2>
-              </div>
-
-              {/* Contestants cards */}
-              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 ">
-                {contestants.map((contestant, index) => (
-                  <div
-                    key={index}
-                    className="group relative overflow-hidden rounded-sm bg-white/5 backdrop-blur-sm border border-white/10 transition-all hover:-translate-y-1"
-                  >
-                    <div className="aspect-square overflow-hidden relative">
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
-                      <img
-                        src={contestant.image}
-                        alt={contestant.slot}
-                        className="w-full h-full object-cover transition-transform"
-                      />
-                      <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
-                        
-                      </div>
-                    </div>
-                    <div className="p-6">
-                      <h3 className="text-2xl font-bold mb-4 text-white">{contestant.slot}</h3>
-                      <SoundCloudPlayer trackUrl={contestant.trackUrl} />
-                    </div>
-                  </div>
-                ))}
+                <DJCarousel contestants={contestants} />
               </div>
 
               <div className="mt-8">
