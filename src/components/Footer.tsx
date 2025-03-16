@@ -51,7 +51,7 @@ const Footer = () => {
             
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/events/1340066513673879"
                 className="text-gray-400 hover:text-hot-pink transition-colors"
               >
                 <Facebook className="w-5 h-5" />
