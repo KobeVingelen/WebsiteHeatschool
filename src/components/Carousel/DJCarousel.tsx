@@ -39,7 +39,7 @@ const Djcarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
   }, []);
 
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: ReturnType<typeof setInterval>;
     
     if (isAutoPlaying) {
       interval = setInterval(() => {
