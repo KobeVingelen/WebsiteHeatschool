@@ -13,7 +13,7 @@ interface DjcarouselProps {
   contestants: Contestant[];
 }
 
-const DJCarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
+const Djcarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [visibleItems, setVisibleItems] = useState(3);
@@ -144,4 +144,4 @@ const DJCarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
   );
 };
 
-export default DJCarousel;
+export default Djcarousel;
