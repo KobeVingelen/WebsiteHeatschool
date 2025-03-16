@@ -2,7 +2,7 @@ import React from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import ArtistCard from '../components/LineUp/ArtistCard';
 import GrainBackground from '../components/GrainBackground';
-import { Clock } from 'lucide-react';
+
 
 const artists = [
   {
