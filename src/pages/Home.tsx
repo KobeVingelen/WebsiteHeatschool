@@ -27,8 +27,8 @@ const Home = () => {
         <GrainBackground />
         <div className="absolute inset-0">
           <video
+          muted
             autoPlay
-            muted
             loop
             playsInline
             key={isMobile ? '1' : '2'}

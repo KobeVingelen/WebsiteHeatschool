@@ -52,7 +52,7 @@ const Program = () => {
 
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Title Section */}
-        <div ref={titleRef} className="text-center mb-32 fade-up">
+        <div ref={titleRef} className="text-center mb-16 md:mb-32  fade-up">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-Audiowide font-bold mb-4 text-white">
             LINE-UP
           </h1>
