@@ -37,7 +37,7 @@ const artists = [
     name: 'Winner DJ contest',
     time: '03:00 - 04:00',
     image:
-      '/images/questionmarklogo2.png',
+      '/images/Dj_pictures/vraagteken.png',
     description: 
       '',
   },
