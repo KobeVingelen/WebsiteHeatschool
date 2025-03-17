@@ -25,7 +25,7 @@ const EventDetails = () => {
         <p className="text-sm sm:text-base text-white">
           Friday, May 9th
           <br />
-          21:00 - 04:00
+          20:30 - 04:00
         </p>
       </div>
       <div className="bg-white/5 backdrop-blur-md rounded-lg p-4 sm:p-6 border border-white/10">

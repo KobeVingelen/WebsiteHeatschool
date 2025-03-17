@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import LoadingOverlay from './components/LoadingOverlay';
 import ScrollToTop from './components/ScrollToTop';
 import { usePageTransition } from './hooks/usePageTransition';
+import { SoundCloudProvider } from './context/SoundCloudContext';
 
 // Lazy load pages for better performance
 const Home = React.lazy(() => import('./pages/Home'));
@@ -18,7 +19,7 @@ function AppContent() {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col">
-      {isLoading && <LoadingOverlay  onLoadingComplete={() => setIsLoading(false)} />}
+      {isLoading && <LoadingOverlay onLoadingComplete={() => setIsLoading(false)} />}
       <Navbar />
       <main className="flex-grow">
         <Suspense fallback={<LoadingOverlay onLoadingComplete={() => setIsLoading(false)} />}>
@@ -39,7 +40,9 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <AppContent />
+      <SoundCloudProvider>
+        <AppContent />
+      </SoundCloudProvider>
     </BrowserRouter>
   );
 }

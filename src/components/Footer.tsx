@@ -3,11 +3,8 @@ import { Link } from 'react-router-dom';
 import {
   Facebook,
   Instagram,
-  Twitter,
   Youtube,
   Mail,
-  MapPin,
-  Phone,
   Ticket,
 } from 'lucide-react';
 
@@ -28,7 +25,7 @@ const Footer = () => {
             </p>
           </div>
           <a
-            href="#"
+            href="https://www.eventbrite.com/e/heat-boiler-room-tickets-1237398284579?aff=oddtdtcreator"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-3 text-md sm:text-xs font-medium text-white bg-heat-pink rounded hover:bg-white hover:text-heat-pink transition-colors"
@@ -51,17 +48,36 @@ const Footer = () => {
             
             <div className="flex space-x-4">
               <a
+              target='_blank'
                 href="https://www.facebook.com/events/1340066513673879"
                 className="text-gray-400 hover:text-heat-pink transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
+              target='_blank'
                 href="https://www.instagram.com/heat.boiler/"
                 className="text-gray-400 hover:text-heat-pink transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
+              <a
+              target='_blank'
+                href="https://www.youtube.com/watch?v=24py2CSvqtM"
+                className="text-gray-400 hover:text-heat-pink transition-colors"
+              >
+                <Youtube className="w-5 h-5" />
+              </a>
+              <a
+                target='_blank'
+                href="https://www.tiktok.com/@heat_boiler?fbclid=IwY2xjawG7GetleHRuA2FlbQIxMAABHSmSCRuQ1BtIbkGi2fflMkMrJGE2LywBo5LEmzFOx9iSENCDZklDynhQZQ_aem_JXgiI7xbdnTBMo3_D3yAzw"
+                className="text-gray-400 hover:text-heat-pink transition-colors"
+              >
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 015.17-2.39V11.9a6.37 6.37 0 00-1.02-.08c-3.41 0-6.17 2.73-6.17 6.09s2.76 6.09 6.17 6.09c3.41 0 6.17-2.73 6.17-6.09V8.75c1.09.93 2.43 1.5 3.87 1.5h.82V6.69h-.82z"/>
+                </svg>
+              </a>
+              
             </div>
           </div>
 

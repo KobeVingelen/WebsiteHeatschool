@@ -4,7 +4,7 @@ import { Ticket } from 'lucide-react';
 const TicketButton = () => {
   return (
     <a
-      href="#"
+      href="https://www.eventbrite.com/e/heat-boiler-room-tickets-1237398284579?aff=oddtdtcreator"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-heat-pink rounded hover:bg-white hover:text-heat-pink transition-colors"

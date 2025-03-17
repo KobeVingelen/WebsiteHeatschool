@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import SoundCloudPlayer from '../SoundCloudPlayer';
+import { useSoundCloud } from '../../context/SoundCloudContext';
 
 interface Contestant {
   slot: string;
@@ -17,9 +18,10 @@ const Djcarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [visibleItems, setVisibleItems] = useState(3);
+  const { isPlaying } = useSoundCloud();
 
   // Create a circular array for infinite loop
-  const items = [...contestants, ...contestants, ...contestants];
+  const items = [...contestants, ...contestants.slice(0, visibleItems)];
 
   // Update visible items based on screen size
   useEffect(() => {
@@ -41,11 +43,10 @@ const Djcarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
   useEffect(() => {
     let interval: ReturnType<typeof setInterval>;
     
-    if (isAutoPlaying) {
+    if (isAutoPlaying && !isPlaying) {
       interval = setInterval(() => {
         setCurrentIndex((prevIndex) => {
           const nextIndex = prevIndex + 1;
-          // Reset when we're about to show the first contestant again
           if (nextIndex > contestants.length - visibleItems) {
             return 0;
           }
@@ -59,11 +60,11 @@ const Djcarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
         clearInterval(interval);
       }
     };
-  }, [isAutoPlaying, contestants.length, visibleItems]);
+  }, [isAutoPlaying, contestants.length, visibleItems, isPlaying]);
 
   const pauseAutoPlay = () => {
     setIsAutoPlaying(false);
-    setTimeout(() => setIsAutoPlaying(true), 10000); // Resume after 10 seconds
+    setTimeout(() => setIsAutoPlaying(true), 10000);
   };
 
   const handlePrevious = () => {
@@ -88,26 +89,22 @@ const Djcarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
     });
   };
 
-  // Calculate the transform value based on the current index and visible items
   const translateX = `translateX(-${currentIndex * (100 / visibleItems)}%)`;
-
   const buttonClasses = "absolute top-1/2 -translate-y-1/2 z-10 bg-heat-pink/80 hover:bg-heat-pink text-white p-2 transition-colors";
 
   return (
-    <div className="relative w-full">
-      {/* Previous Button */}
+    <div className="relative w-full sm:p-8">
       <button
         onClick={handlePrevious}
-        className={`${buttonClasses} left-0 rounded-r-lg`}
+        className={`${buttonClasses} left-0 rounded-none`}
         aria-label="Previous"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
 
-      {/* Next Button */}
       <button
         onClick={handleNext}
-        className={`${buttonClasses} right-0 rounded-l-lg`}
+        className={`${buttonClasses} right-0 rounded-none`}
         aria-label="Next"
       >
         <ChevronRight className="w-6 h-6" />
@@ -115,29 +112,38 @@ const Djcarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
 
       <div className="overflow-hidden">
         <div 
-          className="flex gap-6 mr-10 transition-all duration-1000 ease-in-out transform"
+          className="flex transition-all duration-1000 ease-in-out transform"
           style={{ transform: translateX }}
         >
-          {items.map((contestant, index) => (
-            <div
-              key={`${contestant.slot}-${index}`}
-              className="min-w-[calc(100%-1.5rem)] sm:min-w-[calc(50%-1.5rem)] lg:min-w-[calc(33.333%-1.5rem)] bg-white/5 backdrop-blur-sm transform-gpu"
-            >
-              <div className="aspect-square overflow-hidden relative">
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
-                <img
-                  src={contestant.image}
-                  alt={contestant.slot}
-                  className="w-full h-full object-cover"
-                  loading="eager"
-                />
+          {items.map((contestant, index) => {
+            const isVisible = index >= currentIndex && index < currentIndex + visibleItems;
+            return (
+              <div
+                key={`${contestant.slot}-${index}`}
+                className={`min-w-full sm:min-w-[50%] lg:min-w-[33.333%] transform-gpu transition-all duration-500 sm:px-3`}
+                style={{
+                  opacity: isVisible ? 1 : 0,
+                  transform: `scale(${isVisible ? 1 : 0.95})`,
+                  pointerEvents: isVisible ? 'auto' : 'none'
+                }}
+              >
+                <div className="bg-white/5 backdrop-blur-sm h-full">
+                  <div className="aspect-square overflow-hidden">
+                    <img
+                      src={contestant.image}
+                      alt={contestant.slot}
+                      className="w-full h-full object-cover"
+                      loading="eager"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-xl font-bold mb-3 text-white">{contestant.slot}</h3>
+                    <SoundCloudPlayer trackUrl={contestant.trackUrl} />
+                  </div>
+                </div>
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-4 text-white">{contestant.slot}</h3>
-                <SoundCloudPlayer trackUrl={contestant.trackUrl} />
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>

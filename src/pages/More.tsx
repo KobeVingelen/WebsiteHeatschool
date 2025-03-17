@@ -46,8 +46,8 @@ const More: React.FC = () => {
       <GrainBackground />
       <div className="max-w-3xl mx-auto relative z-20">
         {/* Title Section */}
-        <div ref={titleRef} className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-Audiowide font-bold mb-4 text-white">
+        <div ref={titleRef} className="text-center mt-8 mb-16">
+          <h1 className="text-4xl font-Audiowide font-bold mb-2 text-white">
             FAQ
           </h1>
           <div className="w-24 h-1 bg-heat-pink mx-auto rounded-full" />
