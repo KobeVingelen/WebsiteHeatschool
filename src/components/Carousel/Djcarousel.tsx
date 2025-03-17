@@ -93,7 +93,7 @@ const Djcarousel: React.FC<DjcarouselProps> = ({ contestants }) => {
   const buttonClasses = "absolute top-1/2 -translate-y-1/2 z-10 bg-heat-pink/80 hover:bg-heat-pink text-white p-2 transition-colors";
 
   return (
-    <div className="relative w-full sm:p-8">
+    <div className="relative w-full ">
       <button
         onClick={handlePrevious}
         className={`${buttonClasses} left-0 rounded-none`}

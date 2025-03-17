@@ -240,16 +240,16 @@ const DJContest: React.FC = () => {
         </div>
 
 
-        <div className="max-w-4xl mx-auto text-center mb-4">
-                <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white">
+        <div className=" mx-auto text-center ">
+                <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold underline text-white">
                   Prizes
                 </h2>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-16 2xl:w-7/12 xl:w-9/12 lg:w-11/12  mx-auto">
+              <div className="grid grid-cols-1 text-sm lg:text-xs sm:grid-cols-3 gap-4 mb-16 2xl:w-7/12 xl:w-8/12 lg:w-9/12 mt-4  mx-auto">
      
                 <div className="p-4 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
-                  <h3 className="text-xl font-bold text-heat-pink mb-4">1st Place</h3>
+                  <h3 className="text-lg font-bold text-heat-pink mb-4">1st Place</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-heat-pink mr-2">•</span>
@@ -263,7 +263,7 @@ const DJContest: React.FC = () => {
                 </div>
 
                 <div className="p-4 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
-                  <h3 className="text-xl font-bold text-heat-pink mb-4">2nd Place</h3>
+                  <h3 className="text-lg font-bold text-heat-pink mb-4">2nd Place</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-heat-pink mr-2">•</span>
@@ -273,7 +273,7 @@ const DJContest: React.FC = () => {
                 </div>
 
                 <div className="p-4 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
-                  <h3 className="text-xl font-bold text-heat-pink mb-4">3rd Place</h3>
+                  <h3 className="text-lg font-bold text-heat-pink mb-4">3rd Place</h3>
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-heat-pink mr-2">•</span>
@@ -287,15 +287,15 @@ const DJContest: React.FC = () => {
        
 
 
-        <div className="2xl:w-8/12  xl:w-9/12 lg:w-11/12 mx-auto text-center mb-4 ">
-          <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold text-white ">
+        <div className="2xl:w-8/12  xl:w-9/12 lg:w-11/12 mx-auto text-center  ">
+          <h2 className="text-2xl sm:text-3xl font-Audiowide font-bold underline mb-4   text-white ">
             Contestants
           </h2>
 
           <Djcarousel contestants={contestants} />
         </div>
 
-        <div className="2xl:w-7/12 xl:w-9/12 lg:w-11/12 w-10/12 mx-auto mt-16 mb-8">
+        <div className="2xl:w-7/12 xl:w-9/12 lg:w-11/12 w-10/12 mx-auto mt-8 mb-8">
           <h2 className="text-1xl sm:text-2xl font-bold text-center text-white font-Audiowide underline">Powered by</h2>
           <div className="mt-2 grid grid-cols-1 sm:grid-cols-3 gap-4 items-center backdrop-blur-sm rounded-lg p-4 border border-white/5">
             <div className="p-2">
