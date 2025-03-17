@@ -228,7 +228,7 @@ const DJContest: React.FC = () => {
                       <Trophy className="w-6 h-6 text-heat-pink" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-heat-pink mb-2">The Finals</h3>
+                      <h3 className="text-xl font-bold text-heat-pink mb-2">Round 4: Finals</h3>
                       <p className="text-gray-300 text-sm mb-2">Perform live at HEAT's 360° stage and compete for amazing Pioneer DJ prizes!</p>
                       <div className="text-sm text-heat-pink font-bold">Live Performance</div>
                     </div>
@@ -246,7 +246,7 @@ const DJContest: React.FC = () => {
                 </h2>
               </div>
 
-              <div className="grid grid-cols-1 text-sm lg:text-xs sm:grid-cols-3 gap-4 mb-16 2xl:w-7/12 xl:w-8/12 lg:w-9/12 mt-4  mx-auto">
+              <div className="grid grid-cols-1 text-sm lg:text-xs sm:grid-cols-3 gap-4 mb-16 2xl:w-7/12 xl:w-8/12 lg:w-9/12  mt-4  mx-auto">
      
                 <div className="p-4 rounded-sm bg-white/5 backdrop-blur-sm border border-none">
                   <h3 className="text-lg font-bold text-heat-pink mb-4">1st Place</h3>
