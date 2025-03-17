@@ -253,7 +253,8 @@ const DJContest: React.FC = () => {
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-heat-pink mr-2">•</span>
-                      <span><a className='font-bold text-blue-400' href='https://www.progear.be/nl/alphatheta-ddj-grv6-ddj-grv6?colour=243057' target='_blank'>DDJ-GRV6</a> valued at €849,00</span>
+                      {/* <span><a className='font-bold text-blue-400' href='https://www.progear.be/nl/alphatheta-ddj-grv6-ddj-grv6?colour=243057' target='_blank'>DDJ-GRV6</a> valued at €849,00</span> */}
+                      <span>Pioneer product valued at €849,00</span>
                     </li>
                     <li>
                       <span className="text-heat-pink mr-2">•</span>
@@ -267,7 +268,8 @@ const DJContest: React.FC = () => {
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-heat-pink mr-2">•</span>
-                      <span><a className='font-bold text-blue-400' href='https://www.progear.be/nl/pioneer-dj-dm-50d-dm-50d?colour=243057' target='_blank'>DJ set DM-50D</a> valued at €249,00</span>
+                      {/* <span><a className='font-bold text-blue-400' href='https://www.progear.be/nl/pioneer-dj-dm-50d-dm-50d?colour=243057' target='_blank'>DJ set DM-50D</a> valued at €249,00</span> */}
+                      <span>Pioneer product valued at €249,00</span>
                     </li>
                   </ul>
                 </div>
@@ -277,7 +279,8 @@ const DJContest: React.FC = () => {
                   <ul className="text-white flex flex-col text-left space-y-2">
                     <li>
                       <span className="text-heat-pink mr-2">•</span>
-                      <span><a className='font-bold text-blue-400' href='https://www.progear.be/nl/pioneer-dj-dm-40d-dm-40d' target='_blank'>DJ set DM-40D</a> valued at €179,00</span>
+                      {/* <span><a className='font-bold text-blue-400' href='https://www.progear.be/nl/pioneer-dj-dm-40d-dm-40d' target='_blank'>DJ set DM-40D</a> valued at €179,00</span> */}
+                      <span>Pioneer product valued at €179,00</span>
                     </li>
                   </ul>
                 </div>
