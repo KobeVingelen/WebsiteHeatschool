@@ -90,7 +90,7 @@ const DJContest: React.FC = () => {
       <GrainBackground />
       <div className=" mx-auto relative z-20">
         {/* Title Section */}
-        <div ref={titleRef} className="text-center mt-8 mb-8 md:mb-10  fade-up">
+        <div ref={titleRef} className="text-center mt-8 mb-8 md:mb-10">
           <h1 className="text-4xl font-Audiowide font-bold mb-2 text-white">
             DJ contest
           </h1>
