@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
           </div>
           <a
-            href="https://www.eventbrite.com/e/heat-boiler-room-tickets-1237398284579?aff=oddtdtcreator"
+            href="https://heatboilerroom.eventsquare.store/nl/oqs4qgra3oo1"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-3 py-3 text-md sm:text-xs font-medium text-white bg-heat-pink rounded hover:bg-white hover:text-heat-pink transition-colors"
