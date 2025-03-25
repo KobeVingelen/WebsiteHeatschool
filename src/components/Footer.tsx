@@ -13,7 +13,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-black/90 border-t border-white/10 z-40">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full 2xl:w-8/12 xl:w-9/12 lg:w-11/12 ">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full 2xl:w-8/12 xl:w-9/12 lg:w-11/12">
         {/* Ticket Purchase Banner */}
         <div className="mb-12 p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 flex flex-col md:flex-row items-center justify-between">
           <div className="mb-4 md:mb-0">
@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Brand Section */}
           <div className="space-y-4">
             <Link to="/" className="block mb-4">
@@ -48,21 +48,21 @@ const Footer = () => {
             
             <div className="flex space-x-4">
               <a
-              target='_blank'
+                target='_blank'
                 href="https://www.facebook.com/events/1340066513673879"
                 className="text-gray-400 hover:text-heat-pink transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-              target='_blank'
+                target='_blank'
                 href="https://www.instagram.com/heat.boiler/"
                 className="text-gray-400 hover:text-heat-pink transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-              target='_blank'
+                target='_blank'
                 href="https://www.youtube.com/watch?v=24py2CSvqtM"
                 className="text-gray-400 hover:text-heat-pink transition-colors"
               >
@@ -77,7 +77,6 @@ const Footer = () => {
                   <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 015.17-2.39V11.9a6.37 6.37 0 00-1.02-.08c-3.41 0-6.17 2.73-6.17 6.09s2.76 6.09 6.17 6.09c3.41 0 6.17-2.73 6.17-6.09V8.75c1.09.93 2.43 1.5 3.87 1.5h.82V6.69h-.82z"/>
                 </svg>
               </a>
-              
             </div>
           </div>
 
@@ -106,7 +105,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/more"
-                  className="text-gray-400 hover:text-heat-pinktransition-colors"
+                  className="text-gray-400 hover:text-heat-pink transition-colors"
                 >
                   FAQ
                 </Link>
@@ -139,35 +138,40 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
 
-          {/* Partners */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-heat-pink">Partners</h3>
-            <ul className="space-y-2">
-              <li>
+        {/* Partners Section - Full Width */}
+        <div className="mb-12">
+          <h3 className="text-lg font-semibold mb-6 text-heat-pink ">Partners</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 ">
+            <div className="flex place-items-start  sm:justify-center">
               <img
-                      src="/images/Partners/Alphatheta_logo2.png" 
-                      alt="Partner 1"
-                      className="w-full h-auto max-w-[150px]"
-                    />
-              </li>
-              <li>
+                src="/images/Partners/Alphatheta_logo2.png" 
+                alt="AlphaTheta"
+                className="h-12 w-auto object-contain"
+              />
+            </div>
+            <div className="flex place-items-start  sm:justify-center">
               <img
-                      src="/images/Partners/Pioneer_logo_wit.png" 
-                      alt="Partner 1"
-                      className="w-full h-auto max-w-[150px]"
-                    />
-
-              </li>
-              <li>
+                src="/images/Partners/Pioneer_logo_wit.png" 
+                alt="Pioneer"
+                className="h-12 w-auto object-contain"
+              />
+            </div>
+            <div className="flex place-items-start  sm:justify-center">
               <img
-                      src="/images/Partners/Pro_gear_logo_wit.png" 
-                      alt="Partner 1"
-                      className="w-full h-auto max-w-[150px]"
-                    />
-                
-              </li>
-            </ul>
+                src="/images/Partners/Pro_gear_logo_wit.png" 
+                alt="Pro Gear"
+                className="h-12 w-auto object-contain"
+              />
+            </div>
+            <div className="flex place-items-start  sm:justify-center">
+              <img
+                src="/images/Partners/Bonfire_club_logo_wit.png" 
+                alt="Bonfire club"
+                className="h-12 w-auto object-contain"
+              />
+            </div>
           </div>
         </div>
 

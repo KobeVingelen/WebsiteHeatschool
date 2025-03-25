@@ -140,21 +140,21 @@ const DJContest: React.FC = () => {
 
                 <div className="relative">
                   <div className="flex items-center gap-4">
-                    <div className="w-1/2 text-right pr-4">
+                    <div className="w-1/2 text-right pr-4 opacity-20">
                       <h3 className="text-2xl font-bold text-heat-pink mb-4">Round 3: Community Vote</h3>
                       <p className="text-gray-300">The community decides! Top 5 DJs advance to the live finals.</p>
                     </div>
-                    <div className="relative z-10 bg-black rounded-full border border-heat-pink p-4">
-                      <Zap className="w-8 h-8 text-heat-pink" />
+                    <div className="relative z-10 bg-black rounded-full border border-gray-700 p-4">
+                      <Zap className="w-8 h-8 text-gray-700" />
                     </div>
-                    <div className="w-1/2 pl-8">
+                    <div className="w-1/2 pl-8 opacity-20 ">
                       <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd_lwyVAR_lohMmf4lhntB9ZqpKAnIKwO8gt7jtrfGhQng1Kw/viewform"
+                        href="#"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center px-4 py-2 text-sx font-medium text-white bg-heat-pink rounded hover:bg-white hover:text-heat-pink transition-colors "
                       >
-                        Vote Now!
+                        Closed
                       </a>
                     </div>
                   </div>
