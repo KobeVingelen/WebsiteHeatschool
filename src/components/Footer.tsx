@@ -145,32 +145,56 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-6 text-heat-pink ">Partners</h3>
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 ">
             <div className="flex place-items-start  sm:justify-center">
+            <a
+                target='_blank'
+                href="https://alphatheta.com/nl/"
+                className="text-gray-400 hover:text-heat-pink transition-colors"
+              >
               <img
                 src="/images/Partners/Alphatheta_logo2.png" 
                 alt="AlphaTheta"
                 className="h-12 w-auto object-contain"
               />
+              </a>
             </div>
             <div className="flex place-items-start  sm:justify-center">
+            <a
+                target='_blank'
+                href="https://www.pioneerdj.com/nl-nl/"
+                className="text-gray-400 hover:text-heat-pink transition-colors"
+              >
               <img
                 src="/images/Partners/Pioneer_logo_wit.png" 
                 alt="Pioneer"
                 className="h-12 w-auto object-contain"
               />
+              </a>
             </div>
             <div className="flex place-items-start  sm:justify-center">
+            <a
+                target='_blank'
+                href="https://www.progear.be/nl/content/djgear"
+                className="text-gray-400 hover:text-heat-pink transition-colors"
+              >
               <img
                 src="/images/Partners/Pro_gear_logo_wit.png" 
                 alt="Pro Gear"
                 className="h-12 w-auto object-contain"
               />
+              </a>
             </div>
             <div className="flex place-items-start  sm:justify-center">
+            <a
+                target='_blank'
+                href="https://bonfireclub.be"
+                className="text-gray-400 hover:text-heat-pink transition-colors"
+              >
               <img
                 src="/images/Partners/Bonfire_club_logo_wit.png" 
                 alt="Bonfire club"
                 className="h-12 w-auto object-contain"
               />
+              </a>
             </div>
           </div>
         </div>
